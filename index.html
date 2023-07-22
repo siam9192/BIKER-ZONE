@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fonts poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather+Sans:wght@700&family=Open+Sans:wght@400;500;800&family=Poppins:wght@400;500;600;700;800&family=Rubik:wght@500&family=Ubuntu:wght@400;700&family=Work+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <title>Daisy ui</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css">
+     <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'bg-header': 'rgba(231, 111, 81, 0.10)',
+             
+            }
+          }
+        }
+      }
+    </script>
+     <style>
+      .poppains{
+        font-family: 'Poppins', sans-serif
+      }
+     </style>
+</head>
+<body class=" poppains">
+    <header class="md:container mx-auto"><div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  rounded-box w-52">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost normal-case text-3xl">BIKER ZONE</a>
+        </div>
+        <div class="navbar-center hidden  lg:flex">
+          <ul class="menu menu-horizontal  px-1">
+            <li><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">News</a></li>
+            <li><a href="">Contact</a></li>
+                 
+                </ul>
+              </details>
+           
+          </ul>
+        </div>
+        <div class="navbar-end ">
+          <a class="btn btn-primary px-10 text-white">Log in</a>
+        </div>
+      </div>
+      
+      <!--slider-->
+      <div class="carousel w-full">
+        
+        <div id="slide1" class="carousel-item relative w-full lg:h-[560px]   bg-bg-header">
+          <div class=" md:flex-col-reverse   flex flex-col-reverse lg:flex-row gap-9   px-5 py-10 md:p-20 lg:px-32 lg:py-20">
+           <div class="lg:w-1/2 ">
+             <h1 class="text-5xl lg:text-7xl  font-semibold">Ride-on R15 V4 <br> with Smile</h1>
+             <p class="mt-10">Amet minim mollit non deserunt ullamco 
+               est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+               <a href="" class="btn btn-secondary px-8 mt-5 text-white">Purchase</a>
+           </div>
+           
+           <div>
+             <img src="biker-zone-resources/images/slider/bike3.png" alt="" class="">
+           </div>
+          </div>
+           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+             <a href="#slide3" class="btn btn-circle">❮</a> 
+             <a href="#slide2" class="btn btn-circle">❯</a>
+           </div>
+         </div> 
+        <div id="slide2" class="carousel-item relative w-full lg:h-[560px]   bg-bg-header">
+          <div class=" md:flex-col-reverse   flex flex-col-reverse lg:flex-row gap-9   px-5 py-10 md:p-20 lg:px-32 lg:py-20">
+           <div class="lg:w-1/2 ">
+             <h1 class=" text-5xl lg:text-7xl font-semibold">Ride-on R15 V4 <br> with Smile</h1>
+             <p class="mt-10">Amet minim mollit non deserunt ullamco 
+               est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+               <a href="" class="btn btn-secondary px-8 mt-5 text-white">Purchase</a>
+           
+           </div>
+           <div>
+             <img src="biker-zone-resources/images/slider/bike1.png" alt="" class="">
+           </div>
+          </div>
+           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+             <a href="#slide1" class="btn btn-circle">❮</a> 
+             <a href="#slide3" class="btn btn-circle">❯</a>
+           </div>
+         </div> 
+         
+         <div id="slide3" class="carousel-item relative w-full lg:h-[560px]   bg-bg-header">
+          <div class=" md:flex-col-reverse   flex flex-col-reverse lg:flex-row gap-9   px-5 py-10 md:p-20 lg:px-32 lg:py-20">
+           <div class="lg:w-1/2 ">
+             <h1 class="text-5xl lg:text-7xl font-semibold">Ride-on R15 V4 <br> with Smile</h1>
+             <p class="mt-10">Amet minim mollit non deserunt ullamco 
+               est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+               <a href="" class="btn btn-secondary px-8 mt-5 text-white">Purchase</a>
+           </div>
+           <div>
+             <img src="biker-zone-resources/images/slider/bike2.png" alt="" class="">
+           </div>
+          
+           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+             <a href="#slide2" class="btn btn-circle">❮</a> 
+             <a href="#slide1" class="btn btn-circle">❯</a>
+           </div>
+         </div> 
+       
+      </div>
+      
+    </header>
+  <main class=" max-w-7xl mx-auto">
+    <!--Featured Bikes In This Year-->
+ <section class="mt-10">
+  <h1 class="text-center text-5xl font-[600]">Featured Bikes In This Year</h1>
+  <p class="text-center text-sm text-red-600">Best bike collection</p>
+  <div class="flex gap-10 items-center mt-10 flex-col md:flex-row lg:flex-row">
+  <div class="">
+<img src="biker-zone-resources/images/slider/bike2.png" alt="">
+  </div>
+  <div><img src="biker-zone-resources/images/others/extrabike.png" alt=""></div>
+  <div><img src="biker-zone-resources/images/slider/bike3.png" alt=""></div>
+  </div>
+ </section>
+ <!--latest bike section-->
+ <section class="mt-10 p-2 md:px-4 ">
+  <h1 class="text-5xl text-center font-[600]">latest News</h1>
+  <div class="mt-10 grid grid-cols-1 gap-5 md:grid-cols-3 lg:grid-cols-3">
+    <div class="card card-compact pt-3 bg-base-100 shadow-xl">
+      <figure><img src="biker-zone-resources/images/others/latest1.png" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores eum culpa modi voluptates placeat alias quam unde est nam reprehenderit.</p>
+        <div class="card-actions ">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+  </div>
+  <div class="card card-compact pt-6 bg-base-100 shadow-xl">
+    <figure><img src="biker-zone-resources/images/others/latest2.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">Motorcycles & Scooters</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores eum culpa modi voluptates placeat alias quam unde est nam reprehenderit.</p>
+      <div class="card-actions ">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="card card-compact pt-6 bg-base-100 shadow-xl">
+    <figure><img src="biker-zone-resources/images/others/latest3.png" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 class="card-title">2021 Honda CBR500R</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores eum culpa modi voluptates placeat alias quam unde est nam reprehenderit.</p>
+      <div class="card-actions ">
+        <button class="btn btn-primary">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  
+      
+ </section>
+  </main> 
+</html>
